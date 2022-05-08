@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+
+b{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body{
+    /* background-color: red; */
+    /* background: rgba(0, 0, 0, .3); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor{
+    /* background: blue; */
+    height: 200vh;
+    /* background: rgba(0, 0, 0, .3); */
+    max-width: 1000px;
+}
+
+.head{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+    .info{
+        flex: 1;
+        /* background: rgba(255, 255, 255, .3); */
+        
+    }
+
+
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    
+}
+
+
+
+.list_skills{
+    display: flex;
+
+    /* background: purple; */
+    margin: 20px;
+    display: flex;
+    
+    flex: row;
+}
+
+.itembox{
+    display: flex;
+    /* background-color: wheat; */
+    margin: 10px;
+
+}
+
+
+
+
+
+
+*::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+*::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+*::-webkit-scrollbar-button:increment,*::-webkit-scrollbar-button {
+    display: none;
+} 
+
+*::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid white
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
